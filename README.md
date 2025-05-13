@@ -17,10 +17,9 @@ You might also want to work locally :
 
    ```bash
    git clone https://github.com/SubramanyaJ/project-template.git
-   cd BMSCE-Project-Template/src
    ```
 
-2. **Edit the `main.tex` file:**
+2. **Edit the `src/main.tex` file:**
 
    * Set the title, author, and other details.
    * Add your chapters, sections, and content.

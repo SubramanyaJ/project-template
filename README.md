@@ -42,6 +42,6 @@ You might also want to work locally :
 
 ---
 
-## 📝 Contributing
+## Contributing
 
 I have only tested this on Debian 12. Contributions for Windows support are welcome.

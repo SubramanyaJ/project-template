@@ -1,0 +1,155 @@
+%   /*
+%       Author : Subramanya J <subramanyajaradhya@gmail.com>
+%   */
+
+%   /* Definitions */
+%   /* Modify these as needed */
+\def \collegename {B. M. S. College Of Engineering}
+
+\def \course {Course Name}
+\def \coursecode {(23CS3XXXXX)}
+\def \projectname {"Project Name"}
+
+\def \one {First Student (1BM23CSXXX)}
+\def \two {Second Student (1BM23CSXXX)}
+\def \three {Third Student (1BM23CSXXX)}
+\def \four {Fourth Student (1BM23CSXXX)}
+
+\def \semester {4th}
+\def \academicsemester {Mar 2025 - July 2025}
+
+\def \guidename {Proferror Name}
+\def \guidedesignation {Professor Designation}
+\def \guidedept {Department of CSE}
+
+\def \hodname {Dr. Kavita Sooda}
+\def \hoddept {Department of CSE}
+
+\def \years {2025-2026}
+
+%   /* This need not be touched if your definitions are correct. 
+%       Go to \end{titlepage} */
+
+\documentclass[a4paper,12pt]{report}
+\usepackage[a4paper ,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{graphicx}
+\usepackage{titlesec}
+\usepackage{setspace}
+
+% /* Start of document */
+\begin{document}
+
+%   /* Start of page 1 */
+\begin{titlepage}
+    \centering
+    \textbf{\large VISVESVARAYA TECHNOLOGICAL \\ UNIVERSITY} \\
+    \textit{“Jnana Sangama”, Belgaum - 590014, Karnataka} \\[0.5cm]
+
+    \includegraphics[width=2cm]{../assets/vtu_logo.png} \\[0.5cm]
+
+    \textbf{\large \course \\ PROJECT REPORT} \\[0.4cm]
+    \textbf{On} \\[0.3cm]
+    \textbf{\LARGE \projectname} \\[0.5cm]
+
+    \textbf{Submitted by} \\[0.5cm]
+    \textbf{\one } \\
+    \textbf{\two } \\
+    \textbf{\three } \\
+    \textbf{\four } \\[0.5cm]
+
+    \textbf{Under the Guidance of} \\[0.3cm]
+    \textbf{\guidename} \\ 
+    \textbf{\guidedesignation} \\
+    \textbf{\guidedept} \\
+    \textbf{\collegename}\\ [0.8cm]
+
+    in partial fulfillment for the award of the degree of \\[0.3cm]
+    \textbf{BACHELOR OF ENGINEERING} \\[0.3cm]
+    in \\[0.3cm]
+    \textbf{COMPUTER SCIENCE AND ENGINEERING} \\[0.5cm]
+
+    \includegraphics[width=2cm]{../assets/college_logo.png} \\[0.5cm]
+
+    \textbf{\large \collegename} \\
+    (Autonomous Institution under VTU) \\[0.3cm]
+    \textbf{BENGALURU - 560019} \\[0.3cm]
+    \textbf{\years}
+
+\end{titlepage}
+\newpage
+%   /* End of page 1 */
+
+%   /* Start of page 2 */
+\begin{titlepage}
+    \centering
+    \textbf{\large \collegename,} \\
+    Bull Temple Road, Bengaluru 560019 \\[0.2cm]
+    \textit{(Affiliated To Visvesvaraya Technological University, Belgaum)} \\[0.2cm]
+    \textbf{Department of Computer Science and Engineering} \\[0.5cm]
+
+    \includegraphics[width=2cm]{../assets/college_logo.png} \\[0.5cm] % Replace with actual logo file
+
+    \textbf{\LARGE CERTIFICATE} \\[0.8cm]
+    \setstretch{1.6}
+    This is to certify that the project work entitled \textbf{\projectname}, carried out by
+    \textbf{\one },
+    \textbf{\two },
+    \textbf{\three },
+    \textbf{\four },
+    bonafide students of \textbf{B. M. S. College of Engineering}, is in partial fulfillment for the award of Bachelor of Engineering in Computer Science and Engineering of Visvesvaraya Technological University, Belgaum during the year 2025 and satisfies the academic requirements of the course {\course} {\coursecode} prescribed for the said degree. \\[1cm]
+
+    \begin{tabular}{p{7cm} p{7cm}}
+        \textbf{\guidename} & \textbf{\hodname} \\ 
+        \guidedesignation & Professor and Head \\ 
+        \guidedept & \hoddept \\ 
+        \collegename & \collegename \\
+    \end{tabular} \\[1.5cm]
+
+    \begin{tabular}{p{7cm} p{7cm}}
+        \textbf{Name of the Examiner} & \textbf{Signature with Date}
+    \end{tabular}
+
+\end{titlepage}
+
+\newpage
+\begin{titlepage}
+    \centering
+    \textbf{\large \collegename,} \\
+    \textbf{Department of Computer Science and Engineering} \\[1cm]
+
+    \includegraphics[width=2cm]{../assets/college_logo.png} \\[1cm]
+
+    \textbf{\LARGE Declaration} \\[1cm]
+    \raggedright
+    \setstretch{1.6}
+
+    We, \textbf{\one}, \textbf{\two}, \textbf{\three}, \textbf{\four}, students of \textbf{{\semester} Semester, B.E, Department of Computer Science and Engineering, BMS College of Engineering, Bengaluru}, 
+    hereby declare that this {\course } project entitled \textbf{\projectname } has been carried out by us under the guidance of \textbf{\guidename}, {\guidedesignation}, {\guidedept}, Bangalore, during the academic semester \textbf{\academicsemester}. \\[0.5cm]
+
+    We also declare that, to the best of our knowledge and belief, the development reported here is not a part of any other report by any other students. \\[1cm]
+
+    \hfill \textbf{Signatures} \\[1cm]
+
+    \textbf{\one } \\ [1cm]
+    \textbf{\two } \\ [1cm]
+    \textbf{\three } \\ [1cm]
+    \textbf{\four } \\ [1cm]
+\end{titlepage}
+
+
+%   /* Put your abstract here */
+\begin{abstract}
+Your abstract goes here.
+\end{abstract}
+\newpage
+\tableofcontents
+\listoffigures
+\listoftables
+
+\chapter{Introduction}
+
+\section{Section 1}
+\subsection{Sub Section 1}
+
+\chapter{Bibliography}
+\end{document}
